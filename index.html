@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iHarness — Self-hosted AI agent gateway</title>
+  <meta name="description" content="iHarness is a self-hosted, local-first gateway and client for running AI coding agents on your own machines.">
+  <style>
+    :root {
+      --bg: #0d0d0e;
+      --text: #f5f5f7;
+      --muted: #c7c7cc;
+      --accent: #0a84ff;
+      --card: #1c1c1e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 64px 24px 32px;
+      text-align: center;
+    }
+    h1 { font-size: 42px; margin: 0 0 12px; letter-spacing: -0.5px; }
+    .tagline { color: var(--muted); font-size: 18px; max-width: 560px; margin: 0 auto; }
+    main { max-width: 720px; margin: 0 auto; padding: 24px; }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 20px; margin: 0 0 12px; }
+    p { color: var(--muted); margin: 0 0 16px; }
+    ul { color: var(--muted); padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a { margin: 0 8px; }
+    @media (max-width: 640px) {
+      h1 { font-size: 32px; }
+      .tagline { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>iHarness</h1>
+    <p class="tagline">Self-hosted, local-first AI coding agents. Your code, credentials, and conversations stay on devices you control.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>What is iHarness?</h2>
+      <p>iHarness is an open-source gateway and client for running AI coding agents on your own machines. It connects your editor, browser, and mobile devices to agents running locally or on your private network.</p>
+      <ul>
+        <li>Self-hosted gateway runs on macOS, Linux, Windows, or Docker.</li>
+        <li>Web, PWA, desktop, and Android clients.</li>
+        <li>Push notifications for agent activity.</li>
+        <li>No cloud account required; your data stays local.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Open source</h2>
+      <p>iHarness is a fork of <a href="https://github.com/giuliastro/harness-remote">giuliastro/harness-remote</a>. Source code and setup instructions are available on <a href="https://github.com/techieshukla/harness-remote">GitHub</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <a href="/iharness-site/privacy">Privacy Policy</a>
+    <a href="/iharness-site/terms">Terms of Service</a>
+    <p>© iHarness</p>
+  </footer>
+</body>
+</html>

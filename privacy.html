@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — iHarness</title>
+  <style>
+    :root {
+      --bg: #0d0d0e;
+      --text: #f5f5f7;
+      --muted: #c7c7cc;
+      --accent: #0a84ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 48px 24px 80px;
+    }
+    article { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 32px 0 12px; color: var(--muted); }
+    p, ul { color: var(--muted); margin: 0 0 14px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+    @media (max-width: 640px) {
+      body { padding: 32px 18px 64px; }
+      h1 { font-size: 24px; }
+      h2 { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>Privacy Policy</h1>
+    <p class="updated"><strong>Last updated:</strong> 2026-09-21</p>
+
+    <h2>What iHarness is</h2>
+    <p>iHarness is a self-hosted, local-first gateway and client for running AI coding agents on your own machines. Your code, credentials, conversations, and subscriptions stay on devices you control.</p>
+
+    <h2>Information we collect</h2>
+    <p>The gateway runs on hardware you own. It does not send your source code, conversation transcripts, or project data to the operators of iHarness. Optional Google Sign-In is used only to verify your email address; we do not access your Google contacts, files, email, or calendar.</p>
+    <p>If you enable push notifications, your browser shares a push subscription token with the gateway you configure. That token is stored on the same gateway and is not shared with third parties.</p>
+
+    <h2>How information is used</h2>
+    <ul>
+      <li>To authenticate you to your own gateway.</li>
+      <li>To deliver background push notifications about agent activity.</li>
+      <li>To keep the local workspace state in sync across your devices.</li>
+    </ul>
+
+    <h2>Third parties</h2>
+    <p>Google Sign-In and browser push services are provided by Google and your browser vendor. Communication with AI backends (e.g. OpenAI, Anthropic, OpenCode) happens directly from your gateway using keys you supply.</p>
+
+    <h2>Your choices</h2>
+    <p>You can revoke browser notification permission, remove the PWA, or delete the gateway installation at any time. Google Sign-In can be disabled by removing the OAuth configuration from your gateway.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this policy, contact the operator of the iHarness instance you are using.</p>
+
+    <p><a href="/iharness-site/">Back to iHarness</a></p>
+  </article>
+</body>
+</html>
